@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8; 
+    weight: 900; 
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topbar {
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    flex: 1; 
+    font-size: 18px;
+    color: #E5E7EB;
+}
