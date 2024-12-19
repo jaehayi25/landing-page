@@ -10,6 +10,18 @@
     color: #F9FAF8;
 }
 
+
+.hero {
+    display: flex;
+    width: 80%; 
+    gap: 10px; 
+}
+
+.hero-img {
+    width: 700px;
+    background-color: gray;
+}
+
 .hero-main {
     font-size: 48px;
     color: #F9FAF8; 
@@ -29,11 +41,13 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .container {
     display: flex;
     margin-left: auto;
+    gap: 20px;
 }
 
 .main {
