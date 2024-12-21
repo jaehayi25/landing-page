@@ -8,6 +8,7 @@
     align-items: center;
     background: #1F2937;
     color: #F9FAF8;
+    padding-top: 10px;
 }
 
 
@@ -21,6 +22,7 @@
 .hero-img {
     width: 900px;
     background-color: gray;
+    margin-left: 40px;
 }
 
 .hero-main {
@@ -36,6 +38,18 @@
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .topbar {
@@ -61,28 +75,35 @@
     font-size: 36px;
     color: #1F2937; 
     font-weight: 900; 
+    margin-top: 36px;
 }
 
 .image-row {
     display: flex; 
     gap: 50px; 
+    margin-top: 36px;
 }
 
 
 .image-block {
-    width: 100px;
-    height: 160px;
+    width: 150px;
+    height: 240px;
     display: flex;
     flex-direction: column;
+}
+
+.image-block div {
+    text-align: center;
+    margin-top: 6px;
 }
 
 .image{
     background-color: white;
     border-color: #3882F6;
     border-style: solid;
-    border-width: 2px;
-    height: 100px;
-    width: 100px;
+    border-width: 3px;
+    height: 150px;
+    width: 150px;
     border-radius: 10px;
 }
 
@@ -92,14 +113,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 72px; 
 }
 
 .quote {
-    width: 600px;
-    font-size: 36px;
-    font-weight: 100 !important; 
+    width: 60%;
+    font-size: 32px;
+    font-weight: 100;
     font-style: italic;
     color: #1F2937; 
+    margin-top: 100px; 
 }
 
 .item {
