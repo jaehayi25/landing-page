@@ -149,4 +149,36 @@
     margin: auto; 
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 6px;
+}
+
+.footer-container {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.footer-title {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.footer-text {
+    color: #F9FAF8;
+
+    font-weight: 100;
+}
+
+.footer-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 28px; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 3px solid;
+    border-radius: 5px;
+    font-size: 18px;
 }
